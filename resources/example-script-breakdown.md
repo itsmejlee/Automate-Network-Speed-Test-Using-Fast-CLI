@@ -68,6 +68,6 @@ In my case:
 ```powershell
 .\networktest_script.ps1
 ```
-5. Check the C:\Speedtest\speedtest_results.csv for logged results.
-6. Errors, if any, are logged in C:\Speedtest\fast_error.log.
+5. Check the C:\NetworkTest\networktest_results.csv for logged results.
+6. Errors, if any, are logged in C:\NetworkTest\fast_error.log.
 7. Lastly, to automate the script I used [Windows Task Scheduler](./resources/automate-using-task-scheduler.md)
