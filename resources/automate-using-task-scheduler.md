@@ -19,15 +19,25 @@ Follow the image below
 
 ## 4. Actions Tab
 Fill out the follwing:
-- Program/Script: Locate the powershell.exe file
+
+- **Action:** Start a program
+- **Program/Script:** Locate the powershell.exe file
 ```powershell
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
   ```
-- Add arguments (optional):
+- **Add arguments** (optional):
 ```powershell
--NoProfile -ExecutionPolicy Bypass -File "C:\NetworkTest\networktest.ps1"
+-NoProfile -ExecutionPolicy Bypass -File "C:\NetworkTest\networktest_script.ps1"
 ```
 <img width="459" height="503" alt="image" src="https://github.com/user-attachments/assets/b40998d4-b94a-40e2-90d1-3b1ed78091ba" />
+
+## 5. Conditions Tabs
+- **Uncheck:** Start the task only if the computer is on AC power.
+<img width="632" height="477" alt="image" src="https://github.com/user-attachments/assets/66d2c837-7368-4ebd-903d-0ce3f203309f" />
+
+## 6. Check the results and errors.
+<img width="1918" height="427" alt="image" src="https://github.com/user-attachments/assets/09b19ca3-4ca4-4661-b380-cbf5a255f722" />
+
 
 
 
